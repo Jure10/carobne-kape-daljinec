@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="z5MPBO0x(9%)g}pq%d^E" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="2_QTGZ6cn=POibu=bU[a"><value name="ID"><shadow type="math_number_minmax" id="k#PGs$I@`3e,(c+^W:rr"><mutation min="0" max="255" label="Number" precision="0"/><field name="SLIDER">21</field></shadow></value><next><block type="device_show_leds" id="5-~+#G~!C!.A`dS0bvH3"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_show_leds" id="l;21n~BO2c7xzrb/I1ef"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="ndq,+Mzj`9!J#)Hiyp(5"><field name="LEDS">`
+        # # . . . 
+        # . # . . 
+        # # . . . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="`FA~7]vyvHpzKo[8*sr0"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # # # . . 
+        # . . . . 
+        # # # . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="lRu?q=}e{y[mHJ1]lS|E" x="257" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="FxbReP%+uc-1I*|FLkB5"><value name="value"><shadow type="math_number" id="W[5[r#%-$C[Jl@|^zGHG"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="`cAbyE`e[-9vg_oLcHL;" x="531" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send" id="VCheWKZn#5[*PkRylJ_r"><value name="value"><shadow type="math_number" id="ap7(.1Ir{T[nq]sJrjvG"><field name="NUM">2</field></shadow></value></block></statement></block><block type="device_button_event" id="eiNRm@%mE4Zjvlp6RgIX" x="806" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="radio_datagram_send" id="%PJ:4!5XG3-w=`8^.X%R"><value name="value"><shadow type="math_number" id="v^TbZ]fJ3BmPJ7U`26f#"><field name="NUM">3</field></shadow></value></block></statement></block><block type="device_forever" id="P^D^c3d=/#b}KEs#x)`?" x="0" y="1041"/></xml>
